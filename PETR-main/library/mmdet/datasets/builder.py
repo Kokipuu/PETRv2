@@ -15,7 +15,7 @@ from torch.utils.data import DataLoader
 # from .samplers import (ClassAwareSampler, DistributedGroupSampler,
 #                        DistributedSampler, GroupSampler, InfiniteBatchSampler,
 #                        InfiniteGroupBatchSampler)
-from .samplers import (DistributedGroupSampler,DistributedSampler, GroupSampler)
+from .samplers import DistributedSampler
 
 # from ../..mmcv.runner import get_dist_info
 
